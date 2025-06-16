@@ -19,9 +19,9 @@ module.exports = {
     BOT_PRESENCE: process.env.BOT_PRESENCE || "available", // for online, "composing" for typing 
     REACT: process.env.REACT || false,
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    OWNER_NAME: process.env.OWNER_NAME || "Mirage",
+    OWNER_NAME: process.env.OWNER_NAME || "Daniel",
     BOT_NAME: process.env.BOT_NAME || "Kord",
-    RENDER_API_KEY: process.env.RENDER_API_KEY,
+    RENDER_API_KEY: process.env.RENDER_API_KEY || "Edicity"
     ANTIDELETE: process.env.ANTIDELETE || "on",
     ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "off",
     AUDIO_DATA: process.env.AUDIO_DATA || "Kord;🤍",
